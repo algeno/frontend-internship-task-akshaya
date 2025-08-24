@@ -1,5 +1,5 @@
 # Clone this repository
-git clone https://github.com/algeno/frontend-internship-task-akshaya.git
+git clone https://github.com/algeno/frontend-internship-task-akshaya.git \
 cd frontend-internship-task-akshaya \
 cd user_details
 
