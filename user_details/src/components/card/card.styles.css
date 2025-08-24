@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  border: 1px solid rgb(250, 248, 248);
+  border-radius: 10px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.card-container:hover {
+  transform: scale(1.02);
+}
+.card-inner
+{
+     opacity: 0;
+    visibility: hidden;
+}
+.card-container:hover + .card-inner {
+    opacity: 1;
+    visibility: visible;
+}
